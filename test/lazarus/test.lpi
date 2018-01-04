@@ -27,7 +27,7 @@
           <PathDelim Value="\"/>
           <SearchPaths>
             <IncludeFiles Value="$(ProjOutDir)"/>
-            <OtherUnitFiles Value="$env(delphi3rdParty)\dunit-agiledoxtestrunner;..\..\..\ooText\code;..\..\..\ooEntity\code;..\..\..\ooEntity\code\key;..\..\..\ooEntity\code\DataInput;..\..\..\ooEntity\code\DataOutput;..\..\..\ooBatch\code;..\..\code;..\code"/>
+            <OtherUnitFiles Value="$env(delphi3rdParty)\dunit-agiledoxtestrunner;$env(delphiooLib)\ooText\code;$env(delphiooLib)\ooEntity\code;$env(delphiooLib)\ooEntity\code\key;$env(delphiooLib)\ooEntity\code\DataInput;$env(delphiooLib)\ooEntity\code\DataOutput;$env(delphiooLib)\ooBatch\code;..\..\code;..\code"/>
             <UnitOutputDirectory Value="..\build\debug"/>
           </SearchPaths>
           <Parsing>

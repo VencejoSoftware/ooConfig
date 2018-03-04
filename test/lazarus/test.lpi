@@ -66,7 +66,7 @@
           <PathDelim Value="\"/>
           <SearchPaths>
             <IncludeFiles Value="$(ProjOutDir)"/>
-            <OtherUnitFiles Value="$env(delphi3rdParty)\dunit-agiledoxtestrunner;..\..\..\ooText\code;..\..\..\ooEntity\code;..\..\..\ooEntity\code\key;..\..\..\ooEntity\code\DataInput;..\..\..\ooEntity\code\DataOutput;..\..\..\ooBatch\code;..\..\code;..\code"/>
+            <OtherUnitFiles Value="$env(delphi3rdParty)\dunit-agiledoxtestrunner;$(delphiooLib)\ooText\code;$(delphiooLib)\ooEntity\code;$(delphiooLib)\ooEntity\code\key;$(delphiooLib)\ooEntity\code\DataInput;$(delphiooLib)\ooEntity\code\DataOutput;$(delphiooLib)\ooBatch\code;..\..\code;..\code"/>
             <UnitOutputDirectory Value="..\build\release"/>
           </SearchPaths>
           <Parsing>
@@ -136,7 +136,7 @@
     <PathDelim Value="\"/>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="$env(delphi3rdParty)\dunit-agiledoxtestrunner;..\..\..\ooText\code;..\..\..\ooEntity\code;..\..\..\ooEntity\code\key;..\..\..\ooEntity\code\DataInput;..\..\..\ooEntity\code\DataOutput;..\..\..\ooBatch\code;..\..\code;..\code"/>
+      <OtherUnitFiles Value="$env(delphi3rdParty)\dunit-agiledoxtestrunner;$(delphiooLib)\ooText\code;$(delphiooLib)\ooEntity\code;$(delphiooLib)\ooEntity\code\key;$(delphiooLib)\ooEntity\code\DataInput;$(delphiooLib)\ooEntity\code\DataOutput;$(delphiooLib)\ooBatch\code;..\..\code;..\code"/>
       <UnitOutputDirectory Value="..\build\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Parsing>

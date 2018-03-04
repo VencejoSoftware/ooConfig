@@ -28,7 +28,7 @@
 			<DCC_Platform>x86</DCC_Platform>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Cfg_1)'!=''">
-			<DCC_UnitSearchPath>..\..\..\ooEntity\build\release\;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+			<DCC_UnitSearchPath>$(delphiooLib)\ooEntity\build\release\;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
 			<DCC_DependencyCheckOutputName>..\build\release\test.exe</DCC_DependencyCheckOutputName>
 			<DCC_ExeOutput>..\build\release\</DCC_ExeOutput>
 			<DCC_DcuOutput>..\build\release\dcu\</DCC_DcuOutput>
@@ -38,7 +38,7 @@
 			<DCC_DebugInformation>false</DCC_DebugInformation>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Cfg_2)'!=''">
-			<DCC_UnitSearchPath>..\..\..\ooEntity\build\debug\;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+			<DCC_UnitSearchPath>$(delphiooLib)\ooEntity\build\debug\;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
 			<DCC_RangeChecking>true</DCC_RangeChecking>
 			<DCC_IntegerOverflowCheck>true</DCC_IntegerOverflowCheck>
 			<DCC_DependencyCheckOutputName>..\build\debug\test.exe</DCC_DependencyCheckOutputName>
